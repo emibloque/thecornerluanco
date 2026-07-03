@@ -31,7 +31,7 @@ const translations = {
     "item.cafeVaso": "Cafe con leche en vaso",
     "item.capuchino": "Capuchino",
     "item.moka": "Moka",
-    "item.cafeBaylies": "Cafe con leche, hielo y Baylies",
+    "item.cafeBaylies": "Cafe con leche, hielo y Baileys",
     "item.infusion": "Infusion",
     "item.teAmericano": "Te americano",
     "item.teHelado": "Te helado <em>Lima - Mango - Frambuesa</em>",
