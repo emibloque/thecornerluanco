@@ -40,122 +40,126 @@
         </span>
       </a>
       <nav aria-label="Principal">
-        <a href="#carta">Carta</a>
-        <a href="#encargos">Encargos</a>
-        <a href="#visitanos">Visitanos</a>
+        <a href="#carta" data-i18n="nav.menu">Carta</a>
+        <a href="#encargos" data-i18n="nav.orders">Encargos</a>
+        <a href="#visitanos" data-i18n="nav.visit">Visitanos</a>
       </nav>
+      <div class="language-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
     </header>
 
     <main id="inicio">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Luanco, Asturias</p>
+          <p class="eyebrow" data-i18n="hero.place">Luanco, Asturias</p>
           <h1>The Corner Coffee Store</h1>
-          <p class="lead">Cafe, bolleria de mantequilla, tostadas y dulces caseros preparados cada manana en nuestro propio obrador.</p>
+          <p class="lead" data-i18n="hero.lead">Cafe, bolleria de mantequilla, tostadas y dulces caseros preparados cada manana en nuestro propio obrador.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#carta">Ver carta</a>
+            <a class="button primary" href="#carta" data-i18n="hero.menuButton">Ver carta</a>
             <a class="button ghost" href="https://www.instagram.com/thecornerluanco/" rel="noopener">Instagram</a>
           </div>
         </div>
         <aside class="daily-note" aria-label="Nota de obrador">
-          <span>100% casero</span>
-          <strong>Hecho cada manana</strong>
-          <p>Tarta de queso, tortilla de patata, empanada y fuera de carta por encargo.</p>
+          <span data-i18n="note.kicker">100% casero</span>
+          <strong data-i18n="note.title">Hecho cada manana</strong>
+          <p data-i18n="note.copy">Tarta de queso, tortilla de patata, empanada y fuera de carta por encargo.</p>
         </aside>
       </section>
 
       <section class="menu-band" id="carta">
         <div class="section-heading">
-          <p class="eyebrow">Carta</p>
-          <h2>Cafe, dulce y salado</h2>
+          <p class="eyebrow" data-i18n="menu.kicker">Carta</p>
+          <h2 data-i18n="menu.title">Cafe, dulce y salado</h2>
         </div>
 
         <div class="menu-grid">
           <section class="menu-section">
-            <h3>Cafe</h3>
+            <h3 data-i18n="section.coffee">Cafe</h3>
             <p class="size-label">S / M</p>
             <ul class="menu-list">
-              <li><span>Cafe solo</span><b>1.60</b></li>
-              <li><span>Cafe cortado</span><b>1.70</b></li>
-              <li><span>Descafeinado de sobre</span><b>1.80</b></li>
-              <li><span>Cafe con leche</span><b>1.80 / 2.00</b></li>
-              <li><span>Cafe con leche en vaso</span><b>1.80 / 2.20</b></li>
-              <li><span>Capuchino</span><b>2.50</b></li>
-              <li><span>Moka</span><b>2.60</b></li>
-              <li><span>Cafe con leche, hielo y Baylies</span><b>2.60</b></li>
+              <li><span data-i18n="item.cafeSolo">Cafe solo</span><b>1.60</b></li>
+              <li><span data-i18n="item.cafeCortado">Cafe cortado</span><b>1.70</b></li>
+              <li><span data-i18n="item.decaf">Descafeinado de sobre</span><b>1.80</b></li>
+              <li><span data-i18n="item.cafeLeche">Cafe con leche</span><b>1.80 / 2.00</b></li>
+              <li><span data-i18n="item.cafeVaso">Cafe con leche en vaso</span><b>1.80 / 2.20</b></li>
+              <li><span data-i18n="item.capuchino">Capuchino</span><b>2.50</b></li>
+              <li><span data-i18n="item.moka">Moka</span><b>2.60</b></li>
+              <li><span data-i18n="item.cafeBaylies">Cafe con leche, hielo y Baylies</span><b>2.60</b></li>
               <li><span>Caramel machiatto</span><b>2.90</b></li>
               <li><span>Dirty Chai</span><b>3.00 / 3.50</b></li>
             </ul>
           </section>
 
           <section class="menu-section">
-            <h3>Te</h3>
+            <h3 data-i18n="section.tea">Te</h3>
             <p class="size-label">S / M</p>
             <ul class="menu-list">
-              <li><span>Infusion</span><b>1.90</b></li>
-              <li><span>Te americano</span><b>2.20</b></li>
-              <li><span>Te helado <em>Lima - Mango - Frambuesa</em></span><b>3.50</b></li>
+              <li><span data-i18n="item.infusion">Infusion</span><b>1.90</b></li>
+              <li><span data-i18n="item.teAmericano">Te americano</span><b>2.20</b></li>
+              <li><span data-i18n="item.teHelado">Te helado <em>Lima - Mango - Frambuesa</em></span><b>3.50</b></li>
               <li><span>Chai Latte</span><b>2.50 / 3.00</b></li>
-              <li><span>Te Matcha</span><b>3.50 / 4.00</b></li>
+              <li><span data-i18n="item.matcha">Te Matcha</span><b>3.50 / 4.00</b></li>
             </ul>
           </section>
 
           <section class="menu-section">
-            <h3>Otros</h3>
+            <h3 data-i18n="section.others">Otros</h3>
             <p class="size-label">S / M</p>
             <ul class="menu-list">
               <li><span>ColaCao</span><b>1.90</b></li>
-              <li><span>Chocolate caliente</span><b>2.20</b></li>
-              <li><span>Zumo natural de naranja</span><b>2.50 / 3.50</b></li>
-              <li><span>Doble carga</span><b>0.60</b></li>
-              <li><span>Leche vegetal</span><b>0.30</b></li>
+              <li><span data-i18n="item.hotChocolate">Chocolate caliente</span><b>2.20</b></li>
+              <li><span data-i18n="item.orangeJuice">Zumo natural de naranja</span><b>2.50 / 3.50</b></li>
+              <li><span data-i18n="item.extraShot">Doble carga</span><b>0.60</b></li>
+              <li><span data-i18n="item.plantMilk">Leche vegetal</span><b>0.30</b></li>
             </ul>
           </section>
 
           <section class="menu-section featured">
-            <h3>Dulce</h3>
-            <p class="note">100% casero, hecho en nuestro propio obrador cada manana.</p>
+            <h3 data-i18n="section.sweet">Dulce</h3>
+            <p class="note" data-i18n="sweet.note">100% casero, hecho en nuestro propio obrador cada manana.</p>
             <ul class="menu-list">
-              <li><span>Cookies <em>Chocolate - Tres chocolates</em></span><b>1.80</b></li>
-              <li><span>Bizcocho de limon</span><b>4.50</b></li>
-              <li><span>Mantecado</span><b>5.00</b></li>
-              <li><span>Muffins <em>Chocolate - Frutos rojos</em></span><b>2.80</b></li>
-              <li><span>Palmerita de chocolate</span><b>1.50</b></li>
+              <li><span data-i18n="item.cookies">Cookies <em>Chocolate - Tres chocolates</em></span><b>1.80</b></li>
+              <li><span data-i18n="item.lemonCake">Bizcocho de limon</span><b>4.50</b></li>
+              <li><span data-i18n="item.mantecado">Mantecado</span><b>5.00</b></li>
+              <li><span data-i18n="item.muffins">Muffins <em>Chocolate - Frutos rojos</em></span><b>2.80</b></li>
+              <li><span data-i18n="item.palmerita">Palmerita de chocolate</span><b>1.50</b></li>
             </ul>
           </section>
 
           <section class="menu-section">
-            <h3>Bolleria</h3>
-            <p class="note">100% mantequilla</p>
+            <h3 data-i18n="section.pastry">Bolleria</h3>
+            <p class="note" data-i18n="pastry.note">100% mantequilla</p>
             <ul class="menu-list">
               <li><span>Croissant</span><b>2.40</b></li>
               <li><span>Pain au chocolat</span><b>2.80</b></li>
               <li><span>Cinamon roll</span><b>3.00</b></li>
-              <li><span>Roll Almendra</span><b>3.50</b></li>
+              <li><span data-i18n="item.almondRoll">Roll Almendra</span><b>3.50</b></li>
               <li><span>Moji</span><b>3.00</b></li>
-              <li><span>Yorkcheese <em>Masa de croissant con jamon y queso</em></span><b>3.00</b></li>
+              <li><span data-i18n="item.yorkcheese">Yorkcheese <em>Masa de croissant con jamon y queso</em></span><b>3.00</b></li>
             </ul>
           </section>
 
           <section class="menu-section">
-            <h3>Salado</h3>
+            <h3 data-i18n="section.savory">Salado</h3>
             <ul class="menu-list">
-              <li><span>Pincho <em>con mayonesa: lomo, pollo empanado o bacon</em></span><b>2.50</b></li>
-              <li><span>Pincho de tortilla</span><b>2.70</b></li>
+              <li><span data-i18n="item.pincho">Pincho <em>con mayonesa: lomo, pollo empanado o bacon</em></span><b>2.50</b></li>
+              <li><span data-i18n="item.tortillaPincho">Pincho de tortilla</span><b>2.70</b></li>
             </ul>
-            <h4>Tostadas <small>Desayunos</small></h4>
+            <h4 data-i18n="section.toasts">Tostadas <small>Desayunos</small></h4>
             <ul class="menu-list compact">
-              <li><span>Mantequilla y mermelada</span><b>2.50</b></li>
+              <li><span data-i18n="item.butterJam">Mantequilla y mermelada</span><b>2.50</b></li>
               <li><span>Nutella</span><b>2.70</b></li>
-              <li><span>Tomate y aceite</span><b>2.80</b></li>
-              <li><span>Tomate y aguacate</span><b>4.70</b></li>
-              <li><span>Tomate y paletilla</span><b>6.00</b></li>
-              <li><span>Tomate, aguacate y paletilla</span><b>7.80</b></li>
+              <li><span data-i18n="item.tomatoOil">Tomate y aceite</span><b>2.80</b></li>
+              <li><span data-i18n="item.tomatoAvocado">Tomate y aguacate</span><b>4.70</b></li>
+              <li><span data-i18n="item.tomatoHam">Tomate y paletilla</span><b>6.00</b></li>
+              <li><span data-i18n="item.tomatoAvocadoHam">Tomate, aguacate y paletilla</span><b>7.80</b></li>
             </ul>
-            <h4>Bikinis</h4>
+            <h4 data-i18n="section.bikinis">Bikinis</h4>
             <ul class="menu-list compact">
-              <li><span>Mixto</span><b>4.00</b></li>
-              <li><span>Trufado</span><b>5.00</b></li>
+              <li><span data-i18n="item.mixto">Mixto</span><b>4.00</b></li>
+              <li><span data-i18n="item.trufado">Trufado</span><b>5.00</b></li>
             </ul>
           </section>
         </div>
@@ -163,22 +167,22 @@
 
       <section class="drinks-band">
         <div class="section-heading">
-          <p class="eyebrow">Bebidas y tienda</p>
-          <h2>Cervezas, vinos y refrescos</h2>
+          <p class="eyebrow" data-i18n="drinks.kicker">Bebidas y tienda</p>
+          <h2 data-i18n="drinks.title">Cervezas, vinos y refrescos</h2>
         </div>
         <div class="menu-grid small">
           <section class="menu-section">
-            <h3>Cervezas</h3>
+            <h3 data-i18n="section.beers">Cervezas</h3>
             <ul class="menu-list">
               <li><span>Mahou</span><b>2.80</b></li>
               <li><span>Mahou 0.0</span><b>2.80</b></li>
               <li><span>Radler</span><b>2.80</b></li>
-              <li><span>Mahou sin gluten</span><b>3.00</b></li>
-              <li><span>Alhambra <em>Verde - Roja</em></span><b>3.00</b></li>
+              <li><span data-i18n="item.glutenFreeMahou">Mahou sin gluten</span><b>3.00</b></li>
+              <li><span data-i18n="item.alhambra">Alhambra <em>Verde - Roja</em></span><b>3.00</b></li>
             </ul>
           </section>
           <section class="menu-section">
-            <h3>Vinos</h3>
+            <h3 data-i18n="section.wines">Vinos</h3>
             <ul class="menu-list">
               <li><span>Ribera</span><b>2.80</b></li>
               <li><span>Rioja</span><b>2.80</b></li>
@@ -186,28 +190,28 @@
               <li><span>Moscato</span><b>2.70</b></li>
               <li><span>Godello</span><b>2.80</b></li>
               <li><span>Vermut</span><b>3.00</b></li>
-              <li><span>Tinto de verano</span><b>3.20</b></li>
+              <li><span data-i18n="item.tintoVerano">Tinto de verano</span><b>3.20</b></li>
             </ul>
           </section>
           <section class="menu-section">
-            <h3>Refrescos</h3>
+            <h3 data-i18n="section.softDrinks">Refrescos</h3>
             <ul class="menu-list">
-              <li><span>Agua</span><b>1.70</b></li>
-              <li><span>Agua con gas</span><b>2.00</b></li>
-              <li><span>Zumo pina / melocoton</span><b>2.40</b></li>
+              <li><span data-i18n="item.water">Agua</span><b>1.70</b></li>
+              <li><span data-i18n="item.sparklingWater">Agua con gas</span><b>2.00</b></li>
+              <li><span data-i18n="item.peachJuice">Zumo pina / melocoton</span><b>2.40</b></li>
               <li><span>Mosto</span><b>2.40</b></li>
               <li><span>Coca-Cola</span><b>2.80</b></li>
               <li><span>Aquarius</span><b>2.80</b></li>
-              <li><span>Fanta de naranja</span><b>2.80</b></li>
+              <li><span data-i18n="item.fanta">Fanta de naranja</span><b>2.80</b></li>
               <li><span>Fuze Tea</span><b>2.80</b></li>
-              <li><span>Fuze Tea Maracuya</span><b>2.90</b></li>
+              <li><span data-i18n="item.fuzePassion">Fuze Tea Maracuya</span><b>2.90</b></li>
             </ul>
           </section>
           <section class="menu-section store">
             <h3>The Corner Store</h3>
             <ul class="menu-list">
-              <li><span>250 gr de nuestro blend <em>En grano o molido</em></span><b>13.00</b></li>
-              <li><span>Productos 100% sin gluten <em>Preguntar en el local</em></span><b></b></li>
+              <li><span data-i18n="item.blend">250 gr de nuestro blend <em>En grano o molido</em></span><b>13.00</b></li>
+              <li><span data-i18n="item.glutenProducts">Productos 100% sin gluten <em>Preguntar en el local</em></span><b></b></li>
             </ul>
           </section>
         </div>
@@ -215,28 +219,29 @@
 
       <section class="orders" id="encargos">
         <div>
-          <p class="eyebrow">Encargos</p>
-          <h2>Tambien hacemos encargos</h2>
+          <p class="eyebrow" data-i18n="orders.kicker">Encargos</p>
+          <h2 data-i18n="orders.title">Tambien hacemos encargos</h2>
         </div>
         <ul>
-          <li>Tarta de queso</li>
-          <li>Tortilla de patata</li>
+          <li data-i18n="orders.cheesecake">Tarta de queso</li>
+          <li data-i18n="orders.tortilla">Tortilla de patata</li>
           <li>Empanada</li>
         </ul>
-        <p>Pregunta por nuestros fuera de carta: eclair, tortitas y lemon pie.</p>
+        <p data-i18n="orders.copy">Pregunta por nuestros fuera de carta: eclair, tortitas y lemon pie.</p>
       </section>
 
       <section class="visit" id="visitanos">
         <div>
-          <p class="eyebrow">Visitanos</p>
+          <p class="eyebrow" data-i18n="visit.kicker">Visitanos</p>
           <h2>Calle Salvador Escandon, 14</h2>
           <p>Luanco, Asturias</p>
         </div>
         <div class="visit-actions">
-          <a class="button primary" href="https://www.google.com/maps/search/?api=1&query=The%20Corner%20Luanco" rel="noopener">Abrir mapa</a>
+          <a class="button primary" href="https://www.google.com/maps/search/?api=1&query=The%20Corner%20Luanco" rel="noopener" data-i18n="visit.map">Abrir mapa</a>
           <a class="button ghost" href="https://www.instagram.com/thecornerluanco/" rel="noopener">@thecornerluanco</a>
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

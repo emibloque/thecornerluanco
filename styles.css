@@ -117,6 +117,36 @@ nav a {
   text-decoration: none;
 }
 
+.language-toggle {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(38px, 1fr));
+  border: 2px solid var(--rule);
+  background: rgba(247, 241, 230, 0.42);
+}
+
+.language-toggle button {
+  min-height: 34px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 0;
+  color: var(--ink);
+  background: transparent;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+}
+
+.language-toggle button + button {
+  border-left: 2px solid var(--rule);
+}
+
+.language-toggle button[aria-pressed="true"] {
+  color: var(--cream);
+  background: var(--ink);
+}
+
 main {
   overflow: hidden;
 }
@@ -399,6 +429,10 @@ h4 small {
     justify-content: space-between;
     gap: 8px;
     font-size: 0.72rem;
+  }
+
+  .language-toggle {
+    width: 100%;
   }
 
   .hero {
