@@ -8,6 +8,7 @@
     <meta property="og:title" content="The Corner Luanco">
     <meta property="og:description" content="Café, bollería, tostadas, dulces caseros y bebidas en Luanco, Asturias.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/photos/pastry-tray.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Mulish:wght@400;600;800&display=swap" rel="stylesheet">
@@ -67,11 +68,16 @@
             <a class="button ghost" href="https://www.instagram.com/thecornerluanco/" rel="noopener">Instagram</a>
           </div>
         </div>
-        <aside class="daily-note" aria-label="Nota de obrador">
-          <span data-i18n="note.kicker">100% casero</span>
-          <strong data-i18n="note.title">Hecho cada mañana</strong>
-          <p data-i18n="note.copy">Tarta de queso, tortilla de patata, empanada y fuera de carta por encargo.</p>
-        </aside>
+        <div class="hero-visual">
+          <figure class="hero-photo">
+            <img src="assets/photos/pastry-tray.webp" alt="Bandeja de croissants y rolls recién hechos en The Corner" width="900" height="1600" fetchpriority="high">
+          </figure>
+          <aside class="daily-note" aria-label="Nota de obrador">
+            <span data-i18n="note.kicker">100% casero</span>
+            <strong data-i18n="note.title">Hecho cada mañana</strong>
+            <p data-i18n="note.copy">Tarta de queso, tortilla de patata, empanada y fuera de carta por encargo.</p>
+          </aside>
+        </div>
       </section>
 
       <section class="coffee-origin" aria-labelledby="coffee-origin-title">
@@ -112,6 +118,29 @@
               <dd data-i18n="origin.omniroast">Omniroast</dd>
             </div>
           </dl>
+        </div>
+      </section>
+
+      <section class="photo-story" aria-labelledby="photo-story-title">
+        <div class="photo-story-heading">
+          <p class="eyebrow" data-i18n="photo.kicker">Dentro de The Corner</p>
+          <h2 id="photo-story-title" data-i18n="photo.title">De la bandeja<br>a la mesa.</h2>
+          <p data-i18n="photo.intro">Hojaldre, café y un rincón donde quedarse un poco más.</p>
+        </div>
+
+        <div class="photo-grid">
+          <figure class="photo-card photo-card-table">
+            <img src="assets/photos/coffee-at-the-table.webp" alt="Dos cafés y bollería compartidos alrededor de una mesa" width="900" height="1600" loading="lazy">
+          </figure>
+          <figure class="photo-card photo-card-bakery">
+            <img src="assets/photos/bakery-selection.webp" alt="Selección de croissants, muffins y rolls del obrador" width="900" height="1600" loading="lazy">
+          </figure>
+          <figure class="photo-card photo-card-pastry">
+            <img src="assets/photos/pain-au-chocolat.webp" alt="Pain au chocolat sobre un plato en The Corner" width="900" height="1600" loading="lazy">
+          </figure>
+          <figure class="photo-card photo-card-cookie">
+            <img src="assets/photos/corner-cookie.webp" alt="Cookie de chocolate envuelta con el papel de The Corner" width="1287" height="1287" loading="lazy">
+          </figure>
         </div>
       </section>
 
