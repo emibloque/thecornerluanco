@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Corner Luanco - Coffee Store</title>
-    <meta name="description" content="The Corner Luanco, coffee store en Calle Salvador Escandon 14. Cafe, bolleria, tostadas, dulces caseros y bebidas.">
+    <meta name="description" content="The Corner Luanco, coffee store en Calle Salvador Escandón 14. Café, bollería, tostadas, dulces caseros y bebidas.">
     <meta property="og:title" content="The Corner Luanco">
-    <meta property="og:description" content="Cafe, bolleria, tostadas, dulces caseros y bebidas en Luanco, Asturias.">
+    <meta property="og:description" content="Café, bollería, tostadas, dulces caseros y bebidas en Luanco, Asturias.">
     <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,12 +20,12 @@
         "name": "The Corner Luanco",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Calle Salvador Escandon, 14",
+          "streetAddress": "Calle Salvador Escandón, 14",
           "addressLocality": "Luanco",
           "addressRegion": "Asturias",
           "addressCountry": "ES"
         },
-        "servesCuisine": ["Cafe", "Bolleria", "Desayunos"],
+        "servesCuisine": ["Café", "Bollería", "Desayunos"],
         "sameAs": ["https://www.instagram.com/thecornerluanco/"]
       }
     </script>
@@ -42,10 +42,10 @@
       <nav aria-label="Principal">
         <a href="#carta" data-i18n="nav.menu">Carta</a>
         <a href="#encargos" data-i18n="nav.orders">Encargos</a>
-        <a href="#visitanos" data-i18n="nav.visit">Visitanos</a>
+        <a href="#visitanos" data-i18n="nav.visit">Visítanos</a>
       </nav>
       <div class="language-toggle" role="group" aria-label="Language">
-        <button type="button" data-lang="es" aria-pressed="true" aria-label="Ver en espanol">
+        <button type="button" data-lang="es" aria-pressed="true" aria-label="Ver en español">
           <span class="flag" aria-hidden="true">🇪🇸</span>
           <span class="lang-code">ES</span>
         </button>
@@ -61,7 +61,7 @@
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="hero.place">Luanco, Asturias</p>
           <h1>The Corner Coffee Store</h1>
-          <p class="lead" data-i18n="hero.lead">Cafe, bolleria de mantequilla, tostadas y dulces caseros preparados cada manana en nuestro propio obrador.</p>
+          <p class="lead" data-i18n="hero.lead">Café, bollería de mantequilla, tostadas y dulces caseros preparados cada mañana en nuestro propio obrador.</p>
           <div class="hero-actions">
             <a class="button primary" href="#carta" data-i18n="hero.menuButton">Ver carta</a>
             <a class="button ghost" href="https://www.instagram.com/thecornerluanco/" rel="noopener">Instagram</a>
@@ -69,44 +69,85 @@
         </div>
         <aside class="daily-note" aria-label="Nota de obrador">
           <span data-i18n="note.kicker">100% casero</span>
-          <strong data-i18n="note.title">Hecho cada manana</strong>
+          <strong data-i18n="note.title">Hecho cada mañana</strong>
           <p data-i18n="note.copy">Tarta de queso, tortilla de patata, empanada y fuera de carta por encargo.</p>
         </aside>
+      </section>
+
+      <section class="coffee-origin" aria-labelledby="coffee-origin-title">
+        <div class="coffee-origin-mark" aria-hidden="true">
+          <span>Café</span>
+          <strong>Circular<sup>®</sup></strong>
+          <small>Sierra Madre Oriental · México</small>
+        </div>
+
+        <div class="coffee-origin-story">
+          <div class="coffee-origin-heading">
+            <p class="eyebrow" data-i18n="origin.kicker">Nuestro café</p>
+            <h2 id="coffee-origin-title" data-i18n="origin.title">Dos fincas.<br>Un solo ensamble.</h2>
+          </div>
+
+          <div class="coffee-origin-copy">
+            <p data-i18n="origin.intro"><em>The Corner</em> presenta un ensamble de dos cafés diferenciados del programa Café Circular®️ en la región de la Sierra Madre Oriental en México. Este ensamble proviene de dos fincas: <em>Finca El Chorrito</em>, ubicada a 900 msnm en una fauna selvática, y <em>Finca La Capilla</em>, situada a 1100 msnm en una foresta mesófila.</p>
+            <p data-i18n="origin.flavour">El café de <em>Finca El Chorrito</em> es semi lavado, ofreciendo un cuerpo denso y un resabio a avellana. Por otro lado, el café de <em>Finca La Capilla</em> aporta una acidez cítrica balanceada y un gusto achocolatado. La mezcla es 60% variedad Gesha y 40% híbridos de Timor.</p>
+            <p data-i18n="origin.roast">Este ensamble es ideal para espresso, siendo cremoso, corposo y aromático, y también perfecto para cappuccino o latte. El tostado, realizado por el maestro tostador de Cafés El Globo, es omniroast, versátil tanto para espressos como para filtros.</p>
+            <p class="coffee-origin-welcome" data-i18n="origin.welcome">Bienvenido a la cultura del café y disfruta del mejor sabor.</p>
+          </div>
+
+          <dl class="coffee-origin-facts">
+            <div>
+              <dt data-i18n="origin.farm">Finca El Chorrito</dt>
+              <dd>900 <span data-i18n="origin.elevationUnit">msnm</span></dd>
+            </div>
+            <div>
+              <dt data-i18n="origin.farmTwo">Finca La Capilla</dt>
+              <dd>1100 <span data-i18n="origin.elevationUnit">msnm</span></dd>
+            </div>
+            <div>
+              <dt data-i18n="origin.blend">Variedad</dt>
+              <dd>60<span>% Gesha</span> <b>/</b> 40<span>% Timor</span></dd>
+            </div>
+            <div>
+              <dt data-i18n="origin.roastLabel">Tostado</dt>
+              <dd data-i18n="origin.omniroast">Omniroast</dd>
+            </div>
+          </dl>
+        </div>
       </section>
 
       <section class="menu-band" id="carta">
         <div class="section-heading">
           <p class="eyebrow" data-i18n="menu.kicker">Carta</p>
-          <h2 data-i18n="menu.title">Cafe, dulce y salado</h2>
+          <h2 data-i18n="menu.title">Café, dulce y salado</h2>
         </div>
 
         <div class="menu-grid">
           <section class="menu-section">
-            <h3 data-i18n="section.coffee">Cafe</h3>
+            <h3 data-i18n="section.coffee">Café</h3>
             <p class="size-label">S / M</p>
             <ul class="menu-list">
-              <li><span data-i18n="item.cafeSolo">Cafe solo</span><b>1.60</b></li>
-              <li><span data-i18n="item.cafeCortado">Cafe cortado</span><b>1.70</b></li>
+              <li><span data-i18n="item.cafeSolo">Café solo</span><b>1.60</b></li>
+              <li><span data-i18n="item.cafeCortado">Café cortado</span><b>1.70</b></li>
               <li><span data-i18n="item.decaf">Descafeinado de sobre</span><b>1.80</b></li>
-              <li><span data-i18n="item.cafeLeche">Cafe con leche</span><b>1.80 / 2.00</b></li>
-              <li><span data-i18n="item.cafeVaso">Cafe con leche en vaso</span><b>1.80 / 2.20</b></li>
+              <li><span data-i18n="item.cafeLeche">Café con leche</span><b>1.80 / 2.00</b></li>
+              <li><span data-i18n="item.cafeVaso">Café con leche en vaso</span><b>1.80 / 2.20</b></li>
               <li><span data-i18n="item.capuchino">Capuchino</span><b>2.50</b></li>
               <li><span data-i18n="item.moka">Moka</span><b>2.60</b></li>
-              <li><span data-i18n="item.cafeBaylies">Cafe con leche, hielo y Baileys</span><b>2.60</b></li>
-              <li><span>Caramel machiatto</span><b>2.90</b></li>
+              <li><span data-i18n="item.cafeBaylies">Café con leche, hielo y Baileys</span><b>2.60</b></li>
+              <li><span>Caramel macchiato</span><b>2.90</b></li>
               <li><span>Dirty Chai</span><b>3.00 / 3.50</b></li>
             </ul>
           </section>
 
           <section class="menu-section">
-            <h3 data-i18n="section.tea">Te</h3>
+            <h3 data-i18n="section.tea">Té</h3>
             <p class="size-label">S / M</p>
             <ul class="menu-list">
-              <li><span data-i18n="item.infusion">Infusion</span><b>1.90</b></li>
-              <li><span data-i18n="item.teAmericano">Te americano</span><b>2.20</b></li>
-              <li><span data-i18n="item.teHelado">Te helado <em>Lima - Mango - Frambuesa</em></span><b>3.50</b></li>
+              <li><span data-i18n="item.infusion">Infusión</span><b>1.90</b></li>
+              <li><span data-i18n="item.teAmericano">Té americano</span><b>2.20</b></li>
+              <li><span data-i18n="item.teHelado">Té helado <em>Lima - Mango - Frambuesa</em></span><b>3.50</b></li>
               <li><span>Chai Latte</span><b>2.50 / 3.00</b></li>
-              <li><span data-i18n="item.matcha">Te Matcha</span><b>3.50 / 4.00</b></li>
+              <li><span data-i18n="item.matcha">Té matcha</span><b>3.50 / 4.00</b></li>
             </ul>
           </section>
 
@@ -124,10 +165,10 @@
 
           <section class="menu-section featured">
             <h3 data-i18n="section.sweet">Dulce</h3>
-            <p class="note" data-i18n="sweet.note">100% casero, hecho en nuestro propio obrador cada manana.</p>
+            <p class="note" data-i18n="sweet.note">100% casero, hecho en nuestro propio obrador cada mañana.</p>
             <ul class="menu-list">
               <li><span data-i18n="item.cookies">Cookies <em>Chocolate - Tres chocolates</em></span><b>1.80</b></li>
-              <li><span data-i18n="item.lemonCake">Bizcocho de limon</span><b>4.50</b></li>
+              <li><span data-i18n="item.lemonCake">Bizcocho de limón</span><b>4.50</b></li>
               <li><span data-i18n="item.mantecado">Mantecado</span><b>5.00</b></li>
               <li><span data-i18n="item.muffins">Muffins <em>Chocolate - Frutos rojos</em></span><b>2.80</b></li>
               <li><span data-i18n="item.palmerita">Palmerita de chocolate</span><b>1.50</b></li>
@@ -135,15 +176,15 @@
           </section>
 
           <section class="menu-section">
-            <h3 data-i18n="section.pastry">Bolleria</h3>
+            <h3 data-i18n="section.pastry">Bollería</h3>
             <p class="note" data-i18n="pastry.note">100% mantequilla</p>
             <ul class="menu-list">
               <li><span>Croissant</span><b>2.40</b></li>
               <li><span>Pain au chocolat</span><b>2.80</b></li>
-              <li><span>Cinamon roll</span><b>3.00</b></li>
+              <li><span>Cinnamon roll</span><b>3.00</b></li>
               <li><span data-i18n="item.almondRoll">Roll Almendra</span><b>3.50</b></li>
               <li><span>Moji</span><b>3.00</b></li>
-              <li><span data-i18n="item.yorkcheese">Yorkcheese <em>Masa de croissant con jamon y queso</em></span><b>3.00</b></li>
+              <li><span data-i18n="item.yorkcheese">Yorkcheese <em>Masa de croissant con jamón y queso</em></span><b>3.00</b></li>
             </ul>
           </section>
 
@@ -204,13 +245,13 @@
             <ul class="menu-list">
               <li><span data-i18n="item.water">Agua</span><b>1.70</b></li>
               <li><span data-i18n="item.sparklingWater">Agua con gas</span><b>2.00</b></li>
-              <li><span data-i18n="item.peachJuice">Zumo pina / melocoton</span><b>2.40</b></li>
+              <li><span data-i18n="item.peachJuice">Zumo piña / melocotón</span><b>2.40</b></li>
               <li><span>Mosto</span><b>2.40</b></li>
               <li><span>Coca-Cola</span><b>2.80</b></li>
               <li><span>Aquarius</span><b>2.80</b></li>
               <li><span data-i18n="item.fanta">Fanta de naranja</span><b>2.80</b></li>
               <li><span>Fuze Tea</span><b>2.80</b></li>
-              <li><span data-i18n="item.fuzePassion">Fuze Tea Maracuya</span><b>2.90</b></li>
+              <li><span data-i18n="item.fuzePassion">Fuze Tea Maracuyá</span><b>2.90</b></li>
             </ul>
           </section>
           <section class="menu-section store">
@@ -226,20 +267,20 @@
       <section class="orders" id="encargos">
         <div>
           <p class="eyebrow" data-i18n="orders.kicker">Encargos</p>
-          <h2 data-i18n="orders.title">Tambien hacemos encargos</h2>
+          <h2 data-i18n="orders.title">También hacemos encargos</h2>
         </div>
         <ul>
           <li data-i18n="orders.cheesecake">Tarta de queso</li>
           <li data-i18n="orders.tortilla">Tortilla de patata</li>
           <li>Empanada</li>
         </ul>
-        <p data-i18n="orders.copy">Pregunta por nuestros fuera de carta: eclair, tortitas y lemon pie.</p>
+        <p data-i18n="orders.copy">Pregunta por nuestros fuera de carta: éclair, tortitas y lemon pie.</p>
       </section>
 
       <section class="visit" id="visitanos">
         <div>
-          <p class="eyebrow" data-i18n="visit.kicker">Visitanos</p>
-          <h2>Calle Salvador Escandon, 14</h2>
+          <p class="eyebrow" data-i18n="visit.kicker">Visítanos</p>
+          <h2>Calle Salvador Escandón, 14</h2>
           <p>Luanco, Asturias</p>
         </div>
         <div class="visit-actions">
